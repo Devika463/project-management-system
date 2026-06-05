@@ -7,7 +7,7 @@ A Project Management System built using FastAPI, PostgreSQL, SQLAlchemy, Alembic
 The system allows organizations to manage users, projects, and tasks while supporting authentication, filtering, pagination, validation, and database migrations.
 
 ---
-
+ 
 ## Tech Stack
 
 ### Backend
