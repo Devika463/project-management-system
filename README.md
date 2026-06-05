@@ -182,6 +182,8 @@ ACCESS_TOKEN_EXPIRE_MINUTES=60
 
 ## Setup Instructions
 
+## Backend Setup
+
 ### Create Virtual Environment
 
 ```bash
@@ -220,6 +222,40 @@ uvicorn app.main:app --reload
 http://127.0.0.1:8000/docs
 ```
 
+## Frontend Setup
+
+### Navigate to Frontend Directory
+
+```bash
+cd frontend
+```
+
+### Install Dependencies
+
+```bash
+npm install
+```
+
+### Start Development Server
+
+```bash
+npm run dev
+```
+
+### Frontend URL
+
+```text
+http://localhost:3000
+```
+
+### Frontend Features
+
+* User Login
+* Project List View
+* Task List View
+* Create Task Form
+* Integration with FastAPI Backend
+  
 ---
 
 ## Database Migrations
